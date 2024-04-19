@@ -100,11 +100,13 @@ hr {
     border: 1.5px solid black;
 }
 
+.tab,
 .home-tab,
 .explore-tab {
     padding: 1.5rem;
 }
 
+.tab h3,
 .home-tab h3,
 .explore-tab h3 {
     color: gray;
@@ -123,6 +125,11 @@ hr {
     margin-top: .5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: .7rem;
+}
+
+.card h5 a {
+    text-decoration: none;
+    color: black;
 }
 
 .card:nth-child(2) {
