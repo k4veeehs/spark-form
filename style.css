@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     margin: 0;
@@ -120,8 +121,8 @@ hr {
 
 .card {
     background-color: lightcyan;
-    width: 250px;
-    height: 230px;
+    width: 300px;
+    height: 250px;
     margin-top: .5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: .7rem;
@@ -289,10 +290,11 @@ input:focus {
     transition: .2s;
 }
 
-.quiz-card .answer:hover {
+/* .quiz-card .answer:hover {
     background-color: rgb(235, 231, 231);
     transition: .2s;
 }
+*/
 
 .correct {
     background-color: green;
@@ -334,6 +336,91 @@ input:focus {
     display: flex;
     gap: 1rem;
 }
+
+.dollars {
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.shop-tab {
+    margin-top: 1.5rem;
+}
+
+.shop-tab .shop-card {
+    border: 1px solid gray;
+    display: flex;
+}
+
+.shop-tab .shop-card .product-info {
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.shop-tab .shop-card img {
+    width: 20rem;
+    border-right: 2px solid black;
+}
+
+.brand {
+    font-size: 1.2rem;
+    color: darkslateblue;
+}
+
+.bought {
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.khr {
+    color: red;
+}
+
+.usd {
+    color: blue;
+}
+
+.delivery {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.cart {
+    background-color: lightyellow;
+    padding: .5rem;
+    margin-top: 1rem;
+    width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coming-soon {
+    color: red;
+}
+
+.category-shop {
+    margin-top: 1.5rem;
+    border: 2px solid black;
+    width: fit-content;
+    padding: .5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.category-shop a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.category-shop .nav-link {
+    padding: .5rem;
+}
+
 
 /* responsive */
 
